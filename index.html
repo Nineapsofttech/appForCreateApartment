@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>InAppBrowser.addEventListener Example</title>
+
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Wait for device API libraries to load
+    //
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+    // device APIs are available
+    //
+    function onDeviceReady() {
+
+        var ref = window.open('http://192.168.1.7/#!/apartment_mobile', '_self', 'location=no');
+      
+    }
+ 
+    </script>
+  </head>
+  <body>
+  <img id="myImage"></img>
+
+  </body>
+</html>
