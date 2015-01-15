@@ -1,27 +1,122 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>InAppBrowser.addEventListener Example</title>
+<!doctype html>
+<html lang="en" ng-app="ngRouteExample">
 
-    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
-    <script type="text/javascript" charset="utf-8">
+<head>
+  <title>Worldresident.net</title>
 
-    // Wait for device API libraries to load
-    //
-    document.addEventListener("deviceready", onDeviceReady, false);
+  <meta name="Keywords" content="Room ,เวปไซต์สวย ,เวปไซร์ฟรี ,Responsive ,อพาร์ทเม้นท์ ,หอพัก ,ห้องเช่า ,ราคาถูก ,ห้องถูก ,แผนที่ ,Map ,มองจากภายนอก ,Steed ,view ,สถานที่ใกล้เคียง ,Nearby ,ระบบนำทาง ,Navigator ,อัลบั้มภาพ ,album ,ระบบติดตามFollow ,ความเห็น ,Comment ,แชร์ ,share ,ระบบสมาชิกของเวปไซต์ ,ระบบจองห้องออนไลน์ ,ระบบชำระเงินออนไลน์ ,ผ่านบัตรเครดิต ,ค้นหาของ ,google.com ,worldresident.net ,หาห้อง ,ห้องสวย ,รถไฟฟ้า ,รถไฟฟ้าใต้ดิน ,BTS ,MRT ,พักออนไลน์ ,จองห้อง ,ห้องฟรี ,ห้องพักใกล้ ,ห้องดี ,เช่า ,เช่าถูก ,หอรวม ,หอพักหญิง ,หอพักสตรี">
 
-    // device APIs are available
-    //
-    function onDeviceReady() {
+  <meta name="Description" content="Room ,เวปไซต์สวย ,เวปไซร์ฟรี ,Responsive ,อพาร์ทเม้นท์ ,หอพัก ,ห้องเช่า ,ราคาถูก ,ห้องถูก ,แผนที่ ,Map ,มองจากภายนอก ,Steed ,view ,สถานที่ใกล้เคียง ,Nearby ,ระบบนำทาง ,Navigator ,อัลบั้มภาพ ,album ,ระบบติดตามFollow ,ความเห็น ,Comment ,แชร์ ,share ,ระบบสมาชิกของเวปไซต์ ,ระบบจองห้องออนไลน์ ,ระบบชำระเงินออนไลน์ ,ผ่านบัตรเครดิต ,ค้นหาของ ,google.com ,worldresident.net ,หาห้อง ,ห้องสวย ,รถไฟฟ้า ,รถไฟฟ้าใต้ดิน ,BTS ,MRT ,พักออนไลน์ ,จองห้อง ,ห้องฟรี ,ห้องพักใกล้ ,ห้องดี ,เช่า ,เช่าถูก ,หอรวม ,หอพักหญิง ,หอพักสตรี">
 
-        var ref = window.open('http://192.168.1.7/#!/apartment_mobile', '_self', 'location=no');
-      
-    }
+  <script src="/js/lib/angular/angular.min.js"></script>
+  <script src="/js/lib/angular/angular-route.js"></script>
+   <!-- // <script src="components/angular-animate/angular-animate.min.js"></script> -->
+   <script src="/js/lib/angular/angular-animate.js"></script>
+  <script src="/js/lib/angular/angular-sanitize.js"></script>
+  <script src="/js/lib/angular/angular-resource.js"></script>
+  <script src="/js/lib/angular/angular-cookies.js"></script>
+  <script src="/js/lib/angular-touch/angular-touch.min.js"></script>
+<!-- angular carousel -->
+<script src="/components/angular-carousel/dist/angular-carousel.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/components/angular-carousel/dist/angular-carousel.min.css">
+  <!-- angularjs text editor include -->
+  <script src="/js/lib/textAngular/textAngular.js"></script>
+  <script src="/js/lib/textAngular/textAngular-sanitize.js"></script>
+  <script src="/js/lib/textAngular/textAngularSetup.js"></script>
+  <script src="/js/lib/rangy/rangy-core.js"></script>
+  <script src="/js/lib/rangy/rangy-cssclassapplier.js"></script>
+  <script src="/js/lib/rangy/rangy-selectionsaverestore.js"></script>
+  <!-- angularjs text editor include -->
+  <script src="components/angular-xeditable/dist/js/xeditable.js"></script>
+  <script src="components/angular-strap/dist/angular-strap.min.js"></script>
+  <script src="components/angular-strap/dist/angular-strap.tpl.js"></script>
  
-    </script>
-  </head>
-  <body>
-  <img id="myImage"></img>
+  <script src="components/angular-pickadate/angular-pickadate.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="components/angular-socket-io/socket.min.js"></script>
+  <script src="components/checklist-model/checklist-model.js"></script>
+  <script src="/js/app.js"></script>
+  <script src="/js/services.js"></script>
+  <script src="/js/filters.js"></script>
+  <script src="/js/buttondirective.js"></script>
+  <script src="/js/formdirective.js"></script>
+  <script src="/js/directives.js"></script>
+  <script src="/js/controllers.js"></script>
 
-  </body>
+  
+  <script src="/prajwalkman-angular-slider/angular-slider.js"></script>
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <!--script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.10.3/TweenMax.min.js"></script-->
+  <link rel="stylesheet" src="components/angular-motion/dist/angular-motion.min.css">
+  <link href="components/angular-xeditable/dist/css/xeditable.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/flaticon.css">
+  <link rel="stylesheet" type="text/css" href="css/aprt_list.css">
+  <link rel="stylesheet" type="text/css" href="th_sarabun_new/style.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="css/register_pg.css">
+  <link rel="stylesheet" type="text/css" href="css/info.css">
+  <link rel="stylesheet" type="text/css" href="css/controlpanel.css">
+  <link rel="stylesheet" type="text/css" href="css/flaticon.css">
+  <link rel="stylesheet" type="text/css" href="css/template_user.css">
+  <link rel="stylesheet" type="text/css" href="css/refill.css">
+  <link rel="stylesheet" type="text/css" href="css/webboard.css">
+  <link rel="stylesheet" type="text/css" href="components/angular-pickadate/angular-pickadate.css">
+  <meta name="fragment" content="!">
+  <meta name="Keywords" content="ที่พักใกล้เคียงกรุงเทพมหานคร, ที่พัก,อพร์ทเม้น, อพาร์ทเม้นต์">
+</head>
+
+<body>
+
+  <div class="modal__upload hidden__div" id="process_bar_containner">
+    <div class="progress-bar">
+      <span class="meter" id="process_bar" style="width: 0%"></span>
+    </div>
+  </div>
+
+  <div class="modal__upload hidden__div" id="error_containner" ng-show="alerts='true'">
+    <div class="modal__alert">
+      <h1 id="errtitle" class="info--h1 ng-binding">{{err_message||'ผิดพลาด'}}</h1>
+      <p id="errmessage" class="profile--p1">{{err_detail||'ข้อความผิดพลาด'}}</p>
+      <button class="profile--button5 radius5px button__extend" ng-click="close_error_modal();" id="close_modal">ปิด</button>
+    </div>
+  </div>
+
+  <div class="modal__upload hidden__div" id="login-form" ng-show="alerts='true'">
+    <div class="modal__alert">
+      <login-form></login-form>
+      <button class="profile--button5 radius5px button__extend" onclick="document.getElementById('login-form').className = 'hidden__div';" id="close_modal">ปิด</button>
+    </div>
+  </div>
+
+  <div ng-controller="searchresultCtrl">
+    <div ng-show="customershow">
+      <my-login ng-hide="managesearch"></my-login>
+      <my-headerfix ng-show="managesearch"></my-headerfix>
+      <my-searchbox ng-hide="managesearch"></my-searchbox>
+    </div>
+    <!--ng-View-->
+    <div ng-view></div>
+
+    <div ng-controller="ChatController">
+    </div>
+    <!--footer.html-->
+    <!--BEGIN WEB STAT CODE style="height:0px;position:relative;top:150px;"-->
+    <div class="main_content">
+      <script type="text/javascript" src="http://hits.truehits.in.th/data/t0031291.js"></script>
+      <noscript>
+        <a target="_blank" href="http://truehits.net/stat.php?id=t0031291">
+          <img src="http://hits.truehits.in.th/noscript.php?id=t0031291" alt="Thailand Web Stat" border="0" width="14" height="17" />
+        </a>
+        <a target="_blank" href="http://truehits.net/">Truehits.net</a>
+      </noscript>
+    </div>
+    <!-- END WEBSTAT CODE -->
+    <my-footer ng-show="customershow"></my-footer>
+
+  </div>
+</body>
+
+
 </html>

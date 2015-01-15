@@ -1,0 +1,6 @@
+* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+h1.controlpanel--header__h1 { font-size: 3em; color: #23B4F4; }
+
+.controlpanel--header__position { float: left; display: block; margin-right: 2.35765%; width: 100%; }
+.controlpanel--header__position:last-child { margin-right: 0; }

@@ -1,0 +1,79 @@
+* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+.controlpanel--h1__inner--box { text-align: center; }
+
+.controlpanel--header__position { float: left; display: block; margin-right: 2.35765%; width: 100%; text-align: center; }
+.controlpanel--header__position:last-child { margin-right: 0; }
+
+.controlpanel--body__position { float: left; display: block; margin-right: 2.35765%; width: 100%; height: auto; }
+.controlpanel--body__position:last-child { margin-right: 0; }
+
+.controlpanel--wrapper { margin-top: 4em; height: auto; }
+@media screen and (min-width: 768px) { .controlpanel--wrapper { float: left; display: block; margin-right: 2.35765%; width: 100%; margin: 0em; text-align: center; }
+  .controlpanel--wrapper:last-child { margin-right: 0; } }
+
+.controlpanel--columns { -webkit-column-count: 2; -webkit-column-gap: 10px; -webkit-column-fill: auto; -moz-column-count: 2; -moz-column-gap: 9px; -moz-column-fill: auto; column-count: 2; column-gap: 14px; column-fill: auto; }
+@media screen and (min-width: 768px) { .controlpanel--columns { -webkit-column-count: 4; -webkit-column-gap: 10px; -webkit-column-fill: auto; -moz-column-count: 4; -moz-column-gap: 10px; -moz-column-fill: auto; column-count: 4; column-gap: 10px; column-fill: auto; } }
+
+.controlpanel--columns__admin { -webkit-column-count: 2; -webkit-column-gap: 10px; -webkit-column-fill: auto; -moz-column-count: 2; -moz-column-gap: 9px; -moz-column-fill: auto; column-count: 2; column-gap: 14px; column-fill: auto; }
+@media screen and (min-width: 768px) { .controlpanel--columns__admin { -webkit-column-count: 6; -webkit-column-gap: 10px; -webkit-column-fill: auto; -moz-column-count: 6; -moz-column-gap: 10px; -moz-column-fill: auto; column-count: 6; column-gap: 10px; column-fill: auto; } }
+
+.controlpanel--body__position--box { text-align: center; display: inline-block; width: 100%; overflow: hidden; }
+@media screen and (min-width: 768px) { .controlpanel--body__position--box { width: 24%; } }
+.controlpanel--body__position--box:hover { background-color: rgba(54, 54, 54, 0.1); }
+.controlpanel--body__position--box:active { background-color: #FFF; }
+
+.controlpanel--body__position--box--nonehover { text-align: center; display: inline-block; width: 100%; overflow: hidden; }
+@media screen and (min-width: 768px) { .controlpanel--body__position--box--nonehover { width: 24%; } }
+
+@media screen and (min-width: 768px) { li.profile--li { border-bottom: 1px solid rgba(112, 111, 111, 0.89); background-color: #FFF; padding-top: 8px; padding-left: 18px; -webkit-appearance: none; -moz-appearance: none; -ms-appearance: none; -o-appearance: none; appearance: none; } }
+li.profile--li:hover { background: rgba(197, 195, 195, 0.4); }
+
+@media screen and (min-width: 768px) { .profile--main__menu { float: left; display: block; margin-right: 2.35765%; width: 14.70196%; margin-right: 0px; }
+  .profile--main__menu:last-child { margin-right: 0; } }
+
+@media screen and (min-width: 768px) { .profile--main__content { float: left; display: block; margin-right: 2.35765%; width: 82.94039%; border-left: 1px solid rgba(155, 153, 153, 0.86); padding-left: 15px; }
+  .profile--main__content:last-child { margin-right: 0; } }
+
+@media screen and (min-width: 768px) { .profile--main__privew { float: left; display: block; margin-right: 2.35765%; width: 31.76157%; padding-left: 15px; }
+  .profile--main__privew:last-child { margin-right: 0; } }
+
+@media screen and (min-width: 768px) { .profile--main__content--left { float: left; display: block; margin-right: 2.35765%; width: 31.76157%; }
+  .profile--main__content--left:last-child { margin-right: 0; } }
+
+.profile--main__content--img__crop { width: 20%; overflow: hidden; margin: 10px auto; }
+.profile--main__content--img__crop img { width: 100%; }
+
+.profile--main__content--right { float: left; display: block; margin-right: 2.35765%; width: 65.88078%; margin-right: 0px; height: 195px; }
+.profile--main__content--right:last-child { margin-right: 0; }
+
+.profile--main__content--extend { float: left; display: block; margin-right: 2.35765%; width: 100%; }
+.profile--main__content--extend:last-child { margin-right: 0; }
+
+.profile--main__content--form_box { float: left; display: block; margin-right: 2.35765%; width: 100%; }
+.profile--main__content--form_box:last-child { margin-right: 0; }
+.profile--main__content--form_box .form--left { float: left; display: block; margin-right: 2.35765%; width: 31.76157%; text-align: right; }
+.profile--main__content--form_box .form--left:last-child { margin-right: 0; }
+.profile--main__content--form_box .form--right { float: left; display: block; margin-right: 2.35765%; width: 65.88078%; margin-right: 0px; }
+.profile--main__content--form_box .form--right:last-child { margin-right: 0; }
+
+.profile--main__content--preview__page { float: left; display: block; margin-right: 2.35765%; width: 100%; height: auto; }
+.profile--main__content--preview__page:last-child { margin-right: 0; }
+
+.profile--main__content--preview__box { border: 1px solid rgba(112, 111, 111, 0.89); border-bottom-right-radius: 2px; border-bottom-left-radius: 2px; margin-top: 30px; }
+
+@media screen and (min-width: 768px) { .webpage--main__content { float: left; display: block; margin-right: 2.35765%; width: 82.94039%; border-left: 1px solid rgba(155, 153, 153, 0.86); padding-left: 15px; min-height: 300px; }
+  .webpage--main__content:last-child { margin-right: 0; } }
+
+.controlpanel--content--border { padding: 0px; margin: 0px 24px 5px 0px; }
+
+.tag__p__with--switch { line-height: 32px; margin-left: 10px; line-height: 27px; }
+
+.controlpanel--border--apartment--td tr td { padding: 7px; margin: 0px 0px 10px; }
+
+.controlpanel--border--zero tr td { border: 0px solid rgba(0, 0, 0, 0.22); }
+
+.controlpanel--checkbox--bank { position: relative; bottom: 8px; }
+
+.form__create__aprt--temp--previewcrop { width: 30%; height: auto; overflow: hidden; vertical-align: top; -webkit-transition: all 0.1s linear; -moz-transition: all 0.1s linear; transition: all 0.1s linear; }
+.form__create__aprt--temp--previewcrop:hover { width: 31%; }
